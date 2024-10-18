@@ -1,0 +1,29 @@
+.linkMenu:link{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.linkMenu:visited{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.linkMenu:hover{
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #4682B4;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 10px 8px;
+}
+
+.linkMenu:active{
+    text-transform: uppercase;
+    color: #FF4500;
+    text-decoration: none;
+    letter-spacing: 4px;
+}

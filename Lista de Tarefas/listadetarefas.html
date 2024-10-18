@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE TAREFAS</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilosmenu.css">
+    <link rel="stylesheet" href="css/estilossript.css">
+    <link rel="stylesheet" href="css/estilosformulario.css">
+
+    <script src="js/scriptlista.js" defer></script>
+
+
+</head>
+
+<body>
+    <!-- COMENTÁRIO EM HTML -->
+    <div id="geral">
+        <header id="cabecalho">
+            <nav id="menu">
+                <a href="index.html" class="linkMenu">
+                    LISTA DE TAREFAS
+                </a>
+            </nav>
+        </header>
+        <section id="conteudo">
+            <div id="exemplos">
+
+
+
+                <div class="divExemplo">
+                    <h2> ADICIONAR TAREFAS</h2>
+
+                    <div class="divInput">
+                        <label for="NomePessoa">NOME</label>
+                        <input type="text" name="nome01" id="nome01" class="input" placeholder="Digite o nome do Responsavel pela Tarefa">
+                        <label for="nomeTarefa">TAREFA</label>
+                        <input type="text" name="nome" id="nome" class="input" placeholder="Digite o nome da Tarefa">
+                    </div>
+
+                    <div id="btnFinalizar">
+                        <button id="btnADD" class="btns"> ADICIONAR </button>
+                    </div>
+
+                    <div id="listaTarefas" class="resposta">
+
+                    </div>
+                </div>
+
+                <div class="divExemplo">
+                    <h2> LISTAR TAREFAS</h2>
+
+                    <div class="divInput">
+
+                        <button id="btnDados" class="btns"> LISTAR </button>
+
+                        <div id="listaDados" class="resultado">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    </div>
+    </section>
+    <footer id="rodape">
+       LISTAR TAREFAS
+    </footer>
+    </div>
+
+</body>
+
+</html>
